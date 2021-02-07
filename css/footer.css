@@ -1,0 +1,66 @@
+.footer {
+  margin-top: 2rem;
+  color: #6c707c;
+  background-color: #edf1fd;
+}
+
+.container-footer {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  padding: 1.25rem;
+  justify-content: space-between;
+}
+
+.branding-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-decoration: none;
+  color: #6c707c;
+}
+
+.brandname-footer {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.07rem;
+  font-family: var(--sff);
+}
+
+.contact-social {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cont-icon {
+  margin: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  color: #6c707c;
+  cursor: pointer;
+}
+
+.cont-icon:hover {
+  color: #17d1ac;
+}
+
+.credit {
+  font-size: 1.1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  color: #6c707c;
+}
+
+.credit-p::selection {
+  background: none;
+  color: darkcyan;
+}
