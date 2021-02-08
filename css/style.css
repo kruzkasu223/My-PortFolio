@@ -679,3 +679,35 @@ p {
     height: 400px;
   }
 }
+
+@media all and (max-width: 30em) {
+   #contact-btn a.button2 {
+    display: none;
+  }
+}
+
+#contact-btn a.button2 {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #6c70ac;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: slaztone;
+
+  font-weight: 400;
+  color: #6c70ac;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+#contact-btn a.button2:hover {
+  color: #17d1ac;
+  border-color: #17d1ac;
+}
+
+#contact-btn a.button2:active {
+  color: #17c1ac;
+  border-color: #17d1ac;
+}
