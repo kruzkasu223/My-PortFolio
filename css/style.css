@@ -7,11 +7,17 @@
   font-family: Paintingwithchocolate-K5mo;
   src: url(/fonts/Paintingwithchocolate-K5mo.ttf);
 }
+/* 
+html,
+body {
+  overflow-x: hidden;
+} */
 
 /* CSS Document */
 body {
   margin: 0px;
   padding: 0px;
+
   background-color: #161616;
 }
 ul {
@@ -620,7 +626,10 @@ p {
   .s-heading h1 {
     font-size: 10vh;
   }
-
+  /* INTRO line responsive (small font)  */
+  .name h1 {
+    font-size: 3rem;
+  }
   .name p:nth-child(1),
   .name .details {
     font-size: 4vh;

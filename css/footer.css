@@ -64,3 +64,9 @@
   background: none;
   color: darkcyan;
 }
+
+@media (max-width: 600px) {
+  .container-footer {
+    display: none;
+  }
+}
