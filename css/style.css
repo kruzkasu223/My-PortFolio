@@ -626,6 +626,10 @@ p {
   .s-heading h1 {
     font-size: 10vh;
   }
+  .h-heading h1 {
+    font-size: 10vh;
+  }
+  
   /* INTRO line responsive (small font)  */
   .name h1 {
     font-size: 3rem;
