@@ -59,6 +59,9 @@
   font-weight: 500;
   color: #6c707c;
 }
+.credit-p{
+  color: #6c707c;
+}
 
 .credit-p::selection {
   background: none;
