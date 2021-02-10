@@ -334,7 +334,7 @@ h2 {
 }
 .overlay-text h1,
 p {
-  /* color: #ffffff; */
+   color: #ffffff; 
 }
 .overlay-text h1 {
   font-size: 2.2rem;
